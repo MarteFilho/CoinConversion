@@ -1,0 +1,4 @@
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\bin\Debug\netstandard2.0\CoinConversion.Domain.dll
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\obj\Debug\netstandard2.0\CoinConversion.Infra.csprojAssemblyReference.cache
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\obj\Debug\netstandard2.0\CoinConversion.Infra.AssemblyInfoInputs.cache
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\obj\Debug\netstandard2.0\CoinConversion.Infra.AssemblyInfo.cs

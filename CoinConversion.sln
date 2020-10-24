@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinConversion.Infra", "Coi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinConversion.Tests", "CoinConversion.Tests\CoinConversion.Tests.csproj", "{F747FD57-C797-4E5E-A52F-D8E7E9CAAC21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinConversion.Api", "CoinConversion.Api\CoinConversion.Api.csproj", "{A539DF97-E9BF-40A4-9A6E-329B68F8F327}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{F747FD57-C797-4E5E-A52F-D8E7E9CAAC21}.Release|x64.Build.0 = Release|Any CPU
 		{F747FD57-C797-4E5E-A52F-D8E7E9CAAC21}.Release|x86.ActiveCfg = Release|Any CPU
 		{F747FD57-C797-4E5E-A52F-D8E7E9CAAC21}.Release|x86.Build.0 = Release|Any CPU
+		{A539DF97-E9BF-40A4-9A6E-329B68F8F327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A539DF97-E9BF-40A4-9A6E-329B68F8F327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A539DF97-E9BF-40A4-9A6E-329B68F8F327}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A539DF97-E9BF-40A4-9A6E-329B68F8F327}.Debug|x64.Build.0 = Debug|Any CPU
+		{A539DF97-E9BF-40A4-9A6E-329B68F8F327}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A539DF97-E9BF-40A4-9A6E-329B68F8F327}.Debug|x86.Build.0 = Debug|Any CPU
+		{A539DF97-E9BF-40A4-9A6E-329B68F8F327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A539DF97-E9BF-40A4-9A6E-329B68F8F327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A539DF97-E9BF-40A4-9A6E-329B68F8F327}.Release|x64.ActiveCfg = Release|Any CPU
+		{A539DF97-E9BF-40A4-9A6E-329B68F8F327}.Release|x64.Build.0 = Release|Any CPU
+		{A539DF97-E9BF-40A4-9A6E-329B68F8F327}.Release|x86.ActiveCfg = Release|Any CPU
+		{A539DF97-E9BF-40A4-9A6E-329B68F8F327}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
