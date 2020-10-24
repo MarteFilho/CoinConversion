@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HSmvMbqo1E1AeSQj70JxkQBe88fDGN8XFVB/BbpOlrkvD2+CEa4GQW9av46w2eyu43MJBE/w31V0GPW9kn1esA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Domain\\CoinConversion.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
