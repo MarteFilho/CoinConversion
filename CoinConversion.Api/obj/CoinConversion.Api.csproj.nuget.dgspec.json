@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Api\\CoinConversion.Api.csproj": {}
+    "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Api\\CoinConversion.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Api\\CoinConversion.Api.csproj": {
+    "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Api\\CoinConversion.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Api\\CoinConversion.Api.csproj",
+        "projectUniqueName": "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Api\\CoinConversion.Api.csproj",
         "projectName": "CoinConversion.Api",
-        "projectPath": "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Api\\CoinConversion.Api.csproj",
+        "projectPath": "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Api\\CoinConversion.Api.csproj",
         "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Api\\obj\\",
+        "outputPath": "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Domain\\CoinConversion.Domain.csproj": {
-                "projectPath": "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Domain\\CoinConversion.Domain.csproj"
+              "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Domain\\CoinConversion.Domain.csproj": {
+                "projectPath": "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Domain\\CoinConversion.Domain.csproj"
               },
-              "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Infra\\CoinConversion.Infra.csproj": {
-                "projectPath": "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Infra\\CoinConversion.Infra.csproj"
+              "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Infra\\CoinConversion.Infra.csproj": {
+                "projectPath": "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Infra\\CoinConversion.Infra.csproj"
               }
             }
           }
@@ -44,6 +44,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -72,28 +82,28 @@
         }
       }
     },
-    "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Domain\\CoinConversion.Domain.csproj": {
+    "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Domain\\CoinConversion.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Domain\\CoinConversion.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Domain\\CoinConversion.Domain.csproj",
         "projectName": "CoinConversion.Domain",
-        "projectPath": "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Domain\\CoinConversion.Domain.csproj",
+        "projectPath": "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Domain\\CoinConversion.Domain.csproj",
         "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Domain\\obj\\",
+        "outputPath": "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netstandard2.1": {
             "projectReferences": {}
           }
         },
@@ -104,13 +114,15 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netstandard2.1": {
           "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
+            "Flunt": {
               "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[1.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [
@@ -123,35 +135,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Infra\\CoinConversion.Infra.csproj": {
+    "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Infra\\CoinConversion.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Infra\\CoinConversion.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Infra\\CoinConversion.Infra.csproj",
         "projectName": "CoinConversion.Infra",
-        "projectPath": "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Infra\\CoinConversion.Infra.csproj",
+        "projectPath": "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Infra\\CoinConversion.Infra.csproj",
         "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Infra\\obj\\",
+        "outputPath": "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Domain\\CoinConversion.Domain.csproj": {
-                "projectPath": "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Domain\\CoinConversion.Domain.csproj"
+              "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Domain\\CoinConversion.Domain.csproj": {
+                "projectPath": "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Domain\\CoinConversion.Domain.csproj"
               }
             }
           }
@@ -163,14 +180,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netstandard2.1": {
           "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            },
             "Refit": {
               "target": "Package",
               "version": "[5.2.1, )"
@@ -186,6 +197,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }

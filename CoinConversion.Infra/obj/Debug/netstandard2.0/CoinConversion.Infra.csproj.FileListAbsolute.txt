@@ -2,3 +2,12 @@ C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\bin\Debug\netsta
 C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\obj\Debug\netstandard2.0\CoinConversion.Infra.csprojAssemblyReference.cache
 C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\obj\Debug\netstandard2.0\CoinConversion.Infra.AssemblyInfoInputs.cache
 C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\obj\Debug\netstandard2.0\CoinConversion.Infra.AssemblyInfo.cs
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\bin\Debug\netstandard2.0\CoinConversion.Infra.deps.json
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\bin\Debug\netstandard2.0\CoinConversion.Infra.dll
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\bin\Debug\netstandard2.0\CoinConversion.Infra.pdb
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\bin\Debug\netstandard2.0\CoinConversion.Domain.pdb
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\obj\Debug\netstandard2.0\RefitStubs.g.cs
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\obj\Debug\netstandard2.0\CoinConversion.Infra.csproj.CoreCompileInputs.cache
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\obj\Debug\netstandard2.0\CoinConversion.Infra.csproj.CopyComplete
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\obj\Debug\netstandard2.0\CoinConversion.Infra.dll
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Infra\obj\Debug\netstandard2.0\CoinConversion.Infra.pdb

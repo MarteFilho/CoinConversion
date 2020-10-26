@@ -1,0 +1,9 @@
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Domain\bin\Debug\netstandard2.0\CoinConversion.Domain.deps.json
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Domain\bin\Debug\netstandard2.0\CoinConversion.Domain.dll
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Domain\obj\Debug\netstandard2.0\CoinConversion.Domain.csprojAssemblyReference.cache
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Domain\obj\Debug\netstandard2.0\CoinConversion.Domain.AssemblyInfoInputs.cache
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Domain\obj\Debug\netstandard2.0\CoinConversion.Domain.AssemblyInfo.cs
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Domain\bin\Debug\netstandard2.0\CoinConversion.Domain.pdb
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Domain\obj\Debug\netstandard2.0\CoinConversion.Domain.csproj.CoreCompileInputs.cache
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Domain\obj\Debug\netstandard2.0\CoinConversion.Domain.dll
+C:\Users\marco\source\repos\CoinConversion\CoinConversion.Domain\obj\Debug\netstandard2.0\CoinConversion.Domain.pdb

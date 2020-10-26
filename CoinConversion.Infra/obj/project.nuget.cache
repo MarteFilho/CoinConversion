@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wlBzbYX3kRNA37mWRvKbV9tSINCh09nckkzjqBaS+QshrLgQuTbI5Nx0xga6ZyIzC93Sxowwu5MMDFBR705W5w==",
+  "dgSpecHash": "zfsaQtEsoUGtjPnLIsqwUtHxY6bc8XQrkSs+WnsiLENm/RAI0wsmr3A/7MB5tRlOsYClC1S8g+P0m2fswC6W9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Infra\\CoinConversion.Infra.csproj",
+  "projectFilePath": "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Infra\\CoinConversion.Infra.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\marco\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
-    "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\marco\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\refit\\5.2.1\\refit.5.2.1.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",

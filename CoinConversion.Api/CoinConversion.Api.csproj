@@ -3,6 +3,8 @@
   <ItemGroup>
     <ProjectReference Include="..\CoinConversion.Domain\CoinConversion.Domain.csproj" />
     <ProjectReference Include="..\CoinConversion.Infra\CoinConversion.Infra.csproj" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.8" />
   </ItemGroup>
 
   <PropertyGroup>

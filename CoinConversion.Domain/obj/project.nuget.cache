@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "HSmvMbqo1E1AeSQj70JxkQBe88fDGN8XFVB/BbpOlrkvD2+CEa4GQW9av46w2eyu43MJBE/w31V0GPW9kn1esA==",
+  "dgSpecHash": "eOBfNPiGtgTXyqYJ61hmvh1Z+ngrRlhV5r2QgY9BTBYUEKu1ID5fXz2QxhEva7LROe2TOyPGshxVJiWxzlHhnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marco\\source\\repos\\CoinConversion\\CoinConversion.Domain\\CoinConversion.Domain.csproj",
+  "projectFilePath": "C:\\Users\\marco\\source\\repos\\CoinConversionApi\\CoinConversion.Domain\\CoinConversion.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\marco\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\marco\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }
